@@ -7,7 +7,7 @@
   }
   header{
     max-width: 100%;
-    height:75px;
+    height:60px;
     width:100%;
     background-color: rgba(100, 100, 100, 0.9);
     position:fixed;
@@ -17,19 +17,19 @@
   .heading-left{
     float:left;
     color:white;
-    font-size: 20px;
+    font-size: 15px;
   }
   .heading-right{
     float:right;
   }
   .heading-right img{
     display:inline-block;
-    width:53px;
+    width:45px;
     margin-right:6px
   }
   .heading-right a{
     background-color:rgba(255,255,255,0.3);
-    padding:20px 10px;
+    padding:12px 10px;
     margin-top:5px;
     color:white;
     cursor:pointer;
@@ -75,14 +75,12 @@
   .fa{
     background-color:#3b5998;
     opacity:0.8;
-    margin-right:30px;
     padding:10px 18px;
     margin-bottom: 15px;
   }
   .tw{
     background-color:#55acee;
     opacity:0.8;
-    margin-right:6px;
     margin-bottom: 15px;
   }
   .go{
@@ -116,8 +114,8 @@
   }
   .info-box a{
     position:absolute;
-    top:30px;
-    left:7px;
+    top:17px;
+    left:11px;
     color:black;
     font-size:10px;
     cursor:pointer;
@@ -137,7 +135,7 @@
     float:left;
   }
   .footy-top img{
-    width:40px;
+    width:10%;
     float:left;
   }
   .footy-left p{
@@ -147,3 +145,4 @@
     float:left;
   }
 }
+
