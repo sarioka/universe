@@ -1,0 +1,51 @@
+@media print, screen and (min-width: 640px) {
+.container{
+  width:1170px;
+  text-align:center;
+  margin:0 auto;
+}
+header{
+  height:75px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  top:0px;
+  z-index:10px;
+}
+.heading-left{
+  float:left;
+  color:white;
+  font-size: 20px;
+}
+.heading-right{
+  float:right;
+}
+.heading-right img{
+  display:inline-block;
+  width:50px;
+  margin-right:5px
+}
+.heading-right a{
+  background-color:rgba(255,255,255,0.3);
+  padding:25px 25px;
+  color:white;
+  cursor:pointer;
+  float:right;
+}
+.heading-right a:hover{
+  background-color:rgba(255,255,255,0.8);
+}
+.top-wrapper{
+  background-image:url(forest-1.jpg);
+  background-size:cover;
+  z-index:-1;
+}
+.topping{
+  padding:180px 0px 100px 0px;
+  color:white;
+}
+h1{
+  font-size:45px;
+  letter-spacing:5px;
+  opacity:0.8;
+}
