@@ -24,7 +24,7 @@
   }
   .heading-right img{
     display:inline-block;
-    width:45px;
+    width:42px;
     margin-right:6px
   }
   .heading-right a{
@@ -55,3 +55,25 @@
     letter-spacing:2px;
     opacity:0.8;
   }
+  footer{
+    max-width: 100%;
+    border-top:1px solid #eee;
+    margin-top:30px;
+  }
+  .footy{
+    padding:15px 0px;
+  }
+  .footy-left{
+    float:left;
+  }
+  .footy-top img{
+    width:10%;
+    float:left;
+  }
+  .footy-left p{
+    font-size:10px;
+    margin-bottom:15px;
+    color:#b3aeb5;
+    float:left;
+  }
+}
