@@ -111,3 +111,23 @@ h2{
 .info-box img{
   width:100%
 }
+footer{
+  margin:30px;
+  border-top:1px solid #eee;
+}
+.footy{
+  padding:30px 0px;
+}
+.footy-left{
+  float:left;
+}
+.footy-top img{
+  width:120px;
+  float:left;
+}
+.footy-left p{
+  font-size:12px;
+  margin-bottom:30px;
+  color:#b3aeb5;
+  float:left;
+}
