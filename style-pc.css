@@ -54,6 +54,12 @@ h2{
   letter-spacing:5px;
   opacity:0.8;
 }
+.introduction h1 br{
+  display:none;
+}
+.introduction h2 br{
+  display:none;
+}
 .introduction p{
   opacity:0.8;
 }
@@ -68,6 +74,9 @@ h2{
 }
 .touroku{
   margin-top:30px;
+}
+.touroku br{
+  display:none;
 }
 .fa{
   background-color:#3b5998;
@@ -112,6 +121,9 @@ h2{
   color:black;
   font-size:25px;
   cursor:pointer;
+}
+.info-box a br{
+  display:none;
 }
 .info-box img{
   width:100%
