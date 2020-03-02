@@ -1,0 +1,57 @@
+@media screen and (max-width: 640px){
+  .container{
+    max-width:90%;
+    width:600px;
+    text-align:center;
+    margin:0 auto;
+  }
+  header{
+    max-width: 100%;
+    height:60px;
+    width:100%;
+    background-color: rgba(100, 100, 100, 0.9);
+    position:fixed;
+    top:0px;
+    z-index:10px;
+  }
+  .heading-left{
+    float:left;
+    color:white;
+    font-size: 15px;
+  }
+  .heading-right{
+    float:right;
+  }
+  .heading-right img{
+    display:inline-block;
+    width:45px;
+    margin-right:6px
+  }
+  .heading-right a{
+    background-color:rgba(255,255,255,0.3);
+    padding:12px 10px;
+    margin-top:5px;
+    color:white;
+    cursor:pointer;
+    float:right;
+  }
+  .heading-right a:hover{
+    background-color:rgba(255,255,255,0.8);
+  }
+  .top-wrapper{
+    width: 100%;
+    background-image:url(hoshizora-1.jpg);
+    background-size:cover;
+    position:relative;
+    z-index:-1;
+    margin-top:0px;
+  }
+  .topping{
+    padding:80px 0px 50px 0px;
+    color:white;
+  }
+  h1{
+    font-size:30px;
+    letter-spacing:2px;
+    opacity:0.8;
+  }
