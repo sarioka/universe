@@ -1,0 +1,149 @@
+@media screen and (max-width: 640px){
+  .container{
+    max-width:90%;
+    width:600px;
+    text-align:center;
+    margin:0 auto;
+  }
+  header{
+    max-width: 100%;
+    height:75px;
+    width:100%;
+    background-color: rgba(100, 100, 100, 0.9);
+    position:fixed;
+    top:0px;
+    z-index:10px;
+  }
+  .heading-left{
+    float:left;
+    color:white;
+    font-size: 20px;
+  }
+  .heading-right{
+    float:right;
+  }
+  .heading-right img{
+    display:inline-block;
+    width:53px;
+    margin-right:6px
+  }
+  .heading-right a{
+    background-color:rgba(255,255,255,0.3);
+    padding:20px 10px;
+    margin-top:5px;
+    color:white;
+    cursor:pointer;
+    float:right;
+  }
+  .heading-right a:hover{
+    background-color:rgba(255,255,255,0.8);
+  }
+  .top-wrapper{
+    width: 100%;
+    background-image:url(hoshizora-1.jpg);
+    background-size:cover;
+    position:relative;
+    z-index:-1;
+    margin-top:0px;
+  }
+  .topping{
+    padding:80px 0px 50px 0px;
+    color:white;
+  }
+  h1{
+    font-size:30px;
+    letter-spacing:2px;
+    opacity:0.8;
+  }
+  h2{
+    font-size:25px;
+    letter-spacing:2px;
+    opacity:0.8;
+  }
+  .introduction p{
+    opacity:0.8;
+  }
+  .icon{
+    padding:6px 18px;
+    border-radius:2px;
+    display:inline-block;
+    cursor:pointer;
+  }
+  .touroku{
+    margin-top:15px;
+  }
+  .fa{
+    background-color:#3b5998;
+    opacity:0.8;
+    margin-right:30px;
+    padding:10px 18px;
+    margin-bottom: 15px;
+  }
+  .tw{
+    background-color:#55acee;
+    opacity:0.8;
+    margin-right:6px;
+    margin-bottom: 15px;
+  }
+  .go{
+    background-color:#FA8258;
+    opacity:0.8;
+  }
+  .icon:hover{
+    opacity:1;
+  }
+  .more-info{
+    width: 100%;
+  }
+  .more{
+    width:80%;
+    padding-top:40px;
+    height:150px;
+  }
+  .more h3{
+    font-weight:normal;
+    margin-bottom:30px;
+    color:#5f5d60;
+  }
+  .info{
+    float:left;
+    width:25%;
+  }
+  .info-box{
+    margin:0 auto;
+    width:80%;
+    position:relative;
+  }
+  .info-box a{
+    position:absolute;
+    top:30px;
+    left:7px;
+    color:black;
+    font-size:10px;
+    cursor:pointer;
+  }
+  .info-box img{
+    width:100%;
+  }
+  footer{
+    max-width: 100%;
+    border-top:1px solid #eee;
+    margin-top:30px;
+  }
+  .footy{
+    padding:15px 0px;
+  }
+  .footy-left{
+    float:left;
+  }
+  .footy-top img{
+    width:40px;
+    float:left;
+  }
+  .footy-left p{
+    font-size:10px;
+    margin-bottom:15px;
+    color:#b3aeb5;
+    float:left;
+  }
+}
