@@ -49,3 +49,24 @@ h1{
   letter-spacing:5px;
   opacity:0.8;
 }
+footer{
+  margin:30px;
+  border-top:1px solid #eee;
+}
+.footy{
+  padding:30px 0px;
+}
+.footy-left{
+  float:left;
+}
+.footy-top img{
+  width:115px;
+  float:left;
+}
+.footy-left p{
+  font-size:12px;
+  margin-bottom:30px;
+  color:#b3aeb5;
+  float:left;
+}
+}
