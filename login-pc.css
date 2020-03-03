@@ -1,0 +1,132 @@
+@media print, screen and (min-width: 640px) {
+.container{
+  width:1170px;
+  text-align:center;
+  margin:0 auto;
+}
+header{
+  height:75px;
+  width:100%;
+  background-color:rgba(34,49,52,1);
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+.heading-left{
+  float:left;
+  color:white;
+  font-size: 20px;
+}
+.heading-right{
+  float:right;
+}
+.heading-right img{
+  display:inline-block;
+  width:50px;
+  margin-right:5px
+}
+.heading-right a{
+  background-color:rgba(255,255,255,0.3);
+  padding:25px 25px;
+  color:white;
+  cursor:pointer;
+  float:right;
+}
+.heading-right a:hover{
+  background-color:rgba(255,255,255,0.8);
+}
+.top-wrapper{
+  background-image:url(forest-1.jpg);
+  background-size:cover;
+}
+.topping{
+  padding:180px 0px 100px 0px;
+  color:white;
+}
+
+.introduction h3{
+  opacity:0.8;
+}
+.icon{
+  padding:8px 24px;
+  border-radius:3px;
+  display:inline-block;
+  cursor:pointer;
+}
+.touroku{
+  margin-top:30px;
+}
+.touroku br{
+  display:none;
+}
+.fa{
+  background-color:#3b5998;
+  opacity:0.8;
+  margin-right:10px;
+  padding:12px 24px;
+}
+.tw{
+  background-color:#55acee;
+  opacity:0.8;
+  margin-right:10px;
+}
+.go{
+  background-color:#FA8258;
+  opacity:0.8;
+}
+.icon:hover{
+  opacity:1;
+}
+.more{
+  padding-top:80px;
+  height:500px;
+}
+.more h3{
+  font-weight:normal;
+  margin-bottom:50px;
+  color:#5f5d60;
+}
+.info{
+  float:left;
+  width:25%;
+}
+.info-box{
+  margin:0 auto;
+  width:80%;
+  position:relative;
+}
+.info-box a{
+  position:absolute;
+  top:100px;
+  left:40px;
+  color:black;
+  font-size:25px;
+  cursor:pointer;
+}
+.info-box a br{
+  display:none;
+}
+.info-box img{
+  width:100%
+}
+footer{
+  margin:30px;
+  border-top:1px solid #eee;
+}
+.footy{
+  padding:30px 0px;
+}
+.footy-left{
+  float:left;
+}
+.footy-top img{
+  width:115px;
+  float:left;
+}
+.footy-left p{
+  font-size:12px;
+  margin-bottom:30px;
+  color:#b3aeb5;
+  float:left;
+}
+}
