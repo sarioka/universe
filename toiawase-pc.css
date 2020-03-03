@@ -10,7 +10,7 @@ header{
   background-color:rgba(34,49,52,0.9);
   position:fixed;
   top:0px;
-  z-index:10px;
+  z-index:10;
 }
 .heading-left{
   float:left;
@@ -38,7 +38,6 @@ header{
 .top-wrapper{
   background-image:url(forest-1.jpg);
   background-size:cover;
-  z-index:-1;
 }
 .topping{
   padding:180px 0px 100px 0px;
