@@ -55,6 +55,39 @@
     letter-spacing:2px;
     opacity:0.8;
   }
+  .more-info{
+    width: 100%;
+  }
+  .more{
+    width:80%;
+    padding-top:40px;
+    height:150px;
+  }
+  .more h3{
+    font-weight:normal;
+    margin-bottom:30px;
+    color:#5f5d60;
+  }
+  .info{
+    float:left;
+    width:25%;
+  }
+  .info-box{
+    margin:0 auto;
+    width:80%;
+    position:relative;
+  }
+  .info-box a{
+    position:absolute;
+    top:14px;
+    left:11px;
+    color:black;
+    font-size:10px;
+    cursor:pointer;
+  }
+  .info-box img{
+    width:100%;
+  }
   footer{
     max-width: 100%;
     border-top:1px solid #eee;
